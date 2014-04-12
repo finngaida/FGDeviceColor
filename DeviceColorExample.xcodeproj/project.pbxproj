@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCDF120318F95F6C00E3EFB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDF120218F95F6C00E3EFB6 /* Foundation.framework */; };
+		CCDF120518F95F6C00E3EFB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDF120418F95F6C00E3EFB6 /* CoreGraphics.framework */; };
+		CCDF120718F95F6C00E3EFB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDF120618F95F6C00E3EFB6 /* UIKit.framework */; };
+		CCDF120D18F95F6C00E3EFB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCDF120B18F95F6C00E3EFB6 /* InfoPlist.strings */; };
+		CCDF120F18F95F6C00E3EFB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDF120E18F95F6C00E3EFB6 /* main.m */; };
+		CCDF121318F95F6C00E3EFB6 /* FGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDF121218F95F6C00E3EFB6 /* FGAppDelegate.m */; };
+		CCDF121618F95F6C00E3EFB6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDF121418F95F6C00E3EFB6 /* Main_iPhone.storyboard */; };
+		CCDF121918F95F6C00E3EFB6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDF121718F95F6C00E3EFB6 /* Main_iPad.storyboard */; };
+		CCDF121C18F95F6C00E3EFB6 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDF121B18F95F6C00E3EFB6 /* FGViewController.m */; };
+		CCDF121E18F95F6C00E3EFB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDF121D18F95F6C00E3EFB6 /* Images.xcassets */; };
+		CCDF123F18F9626200E3EFB6 /* FGDeviceColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDF123E18F9626200E3EFB6 /* FGDeviceColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCDF11FF18F95F6C00E3EFB6 /* DeviceColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDF120218F95F6C00E3EFB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCDF120418F95F6C00E3EFB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCDF120618F95F6C00E3EFB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCDF120A18F95F6C00E3EFB6 /* DeviceColorExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceColorExample-Info.plist"; sourceTree = "<group>"; };
+		CCDF120C18F95F6C00E3EFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCDF120E18F95F6C00E3EFB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCDF121018F95F6C00E3EFB6 /* DeviceColorExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeviceColorExample-Prefix.pch"; sourceTree = "<group>"; };
+		CCDF121118F95F6C00E3EFB6 /* FGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGAppDelegate.h; sourceTree = "<group>"; };
+		CCDF121218F95F6C00E3EFB6 /* FGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGAppDelegate.m; sourceTree = "<group>"; };
+		CCDF121518F95F6C00E3EFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CCDF121818F95F6C00E3EFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CCDF121A18F95F6C00E3EFB6 /* FGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
+		CCDF121B18F95F6C00E3EFB6 /* FGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
+		CCDF121D18F95F6C00E3EFB6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCDF122418F95F6C00E3EFB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCDF123D18F9626200E3EFB6 /* FGDeviceColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGDeviceColor.h; path = FGDeviceColor/FGDeviceColor.h; sourceTree = SOURCE_ROOT; };
+		CCDF123E18F9626200E3EFB6 /* FGDeviceColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGDeviceColor.m; path = FGDeviceColor/FGDeviceColor.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDF11FC18F95F6C00E3EFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDF120518F95F6C00E3EFB6 /* CoreGraphics.framework in Frameworks */,
+				CCDF120718F95F6C00E3EFB6 /* UIKit.framework in Frameworks */,
+				CCDF120318F95F6C00E3EFB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCDF11F618F95F6C00E3EFB6 = {
+			isa = PBXGroup;
+			children = (
+				CCDF120818F95F6C00E3EFB6 /* DeviceColorExample */,
+				CCDF120118F95F6C00E3EFB6 /* Frameworks */,
+				CCDF120018F95F6C00E3EFB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDF120018F95F6C00E3EFB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF11FF18F95F6C00E3EFB6 /* DeviceColorExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCDF120118F95F6C00E3EFB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF120218F95F6C00E3EFB6 /* Foundation.framework */,
+				CCDF120418F95F6C00E3EFB6 /* CoreGraphics.framework */,
+				CCDF120618F95F6C00E3EFB6 /* UIKit.framework */,
+				CCDF122418F95F6C00E3EFB6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCDF120818F95F6C00E3EFB6 /* DeviceColorExample */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF121118F95F6C00E3EFB6 /* FGAppDelegate.h */,
+				CCDF121218F95F6C00E3EFB6 /* FGAppDelegate.m */,
+				CCDF121418F95F6C00E3EFB6 /* Main_iPhone.storyboard */,
+				CCDF121718F95F6C00E3EFB6 /* Main_iPad.storyboard */,
+				CCDF121A18F95F6C00E3EFB6 /* FGViewController.h */,
+				CCDF121B18F95F6C00E3EFB6 /* FGViewController.m */,
+				CCDF123D18F9626200E3EFB6 /* FGDeviceColor.h */,
+				CCDF123E18F9626200E3EFB6 /* FGDeviceColor.m */,
+				CCDF121D18F95F6C00E3EFB6 /* Images.xcassets */,
+				CCDF120918F95F6C00E3EFB6 /* Supporting Files */,
+			);
+			path = DeviceColorExample;
+			sourceTree = "<group>";
+		};
+		CCDF120918F95F6C00E3EFB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF120A18F95F6C00E3EFB6 /* DeviceColorExample-Info.plist */,
+				CCDF120B18F95F6C00E3EFB6 /* InfoPlist.strings */,
+				CCDF120E18F95F6C00E3EFB6 /* main.m */,
+				CCDF121018F95F6C00E3EFB6 /* DeviceColorExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCDF11FE18F95F6C00E3EFB6 /* DeviceColorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDF123418F95F6C00E3EFB6 /* Build configuration list for PBXNativeTarget "DeviceColorExample" */;
+			buildPhases = (
+				CCDF11FB18F95F6C00E3EFB6 /* Sources */,
+				CCDF11FC18F95F6C00E3EFB6 /* Frameworks */,
+				CCDF11FD18F95F6C00E3EFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceColorExample;
+			productName = DeviceColorExample;
+			productReference = CCDF11FF18F95F6C00E3EFB6 /* DeviceColorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDF11F718F95F6C00E3EFB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Finn Gaida";
+			};
+			buildConfigurationList = CCDF11FA18F95F6C00E3EFB6 /* Build configuration list for PBXProject "DeviceColorExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCDF11F618F95F6C00E3EFB6;
+			productRefGroup = CCDF120018F95F6C00E3EFB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDF11FE18F95F6C00E3EFB6 /* DeviceColorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDF11FD18F95F6C00E3EFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDF121918F95F6C00E3EFB6 /* Main_iPad.storyboard in Resources */,
+				CCDF121E18F95F6C00E3EFB6 /* Images.xcassets in Resources */,
+				CCDF121618F95F6C00E3EFB6 /* Main_iPhone.storyboard in Resources */,
+				CCDF120D18F95F6C00E3EFB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDF11FB18F95F6C00E3EFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDF120F18F95F6C00E3EFB6 /* main.m in Sources */,
+				CCDF121318F95F6C00E3EFB6 /* FGAppDelegate.m in Sources */,
+				CCDF123F18F9626200E3EFB6 /* FGDeviceColor.m in Sources */,
+				CCDF121C18F95F6C00E3EFB6 /* FGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCDF120B18F95F6C00E3EFB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDF120C18F95F6C00E3EFB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCDF121418F95F6C00E3EFB6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDF121518F95F6C00E3EFB6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCDF121718F95F6C00E3EFB6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDF121818F95F6C00E3EFB6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCDF123218F95F6C00E3EFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCDF123318F95F6C00E3EFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDF123518F95F6C00E3EFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceColorExample/DeviceColorExample-Prefix.pch";
+				INFOPLIST_FILE = "DeviceColorExample/DeviceColorExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCDF123618F95F6C00E3EFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeviceColorExample/DeviceColorExample-Prefix.pch";
+				INFOPLIST_FILE = "DeviceColorExample/DeviceColorExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDF11FA18F95F6C00E3EFB6 /* Build configuration list for PBXProject "DeviceColorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDF123218F95F6C00E3EFB6 /* Debug */,
+				CCDF123318F95F6C00E3EFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDF123418F95F6C00E3EFB6 /* Build configuration list for PBXNativeTarget "DeviceColorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDF123518F95F6C00E3EFB6 /* Debug */,
+				CCDF123618F95F6C00E3EFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCDF11F718F95F6C00E3EFB6 /* Project object */;
+}
